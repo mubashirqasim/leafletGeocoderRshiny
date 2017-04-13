@@ -1,6 +1,6 @@
 # Leaflet Geo-coder for Rshiny
 This html widget is built embed the following on [leaflet maps](http://leafletjs.com/) in your shinyapp:
-* State of the art [Mapzen](https://mapzen.com/) geocoder using [Pelias](http://pelias.io/), see example [here](https://mapzen.github.io/leaflet-geocoder/#6/-40.330/175.979)
+* State of the art [leaflet-geocoder](https://github.com/mapzen/leaflet-geocoder) by [Mapzen](https://mapzen.com/) using [Pelias](http://pelias.io/) package, see example [here](https://mapzen.github.io/leaflet-geocoder/#6/-40.330/175.979)
 * [Leaflet Control Search](https://github.com/stefanocudini/leaflet-search)
 
 ## Installation
