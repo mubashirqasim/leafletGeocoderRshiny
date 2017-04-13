@@ -12,6 +12,8 @@ devtools::install_github('mubashirqasim/leafletGeocoderRshiny')
 ```
 
 ## Example
+### [Leaflet + Mapzen Search geocoding plugin](https://github.com/mapzen/leaflet-geocoder)
+
 ```r
 library(leaflet)
 library(leafletGeocoderRshiny)
@@ -22,6 +24,8 @@ leaflet(data = quakes) %>%
 ```  
 
 ![capture](https://cloud.githubusercontent.com/assets/8086373/24949630/679cf568-1fc2-11e7-92fb-e66d3a2d7732.png)
+
+## [Leaflet + Leaflet Control Search](https://github.com/stefanocudini/leaflet-search)
 
 ```r
 data(quakes)
