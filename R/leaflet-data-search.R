@@ -5,7 +5,7 @@ leafletSearchDependenciesDataSearch <- function() {
       "1.3.8",
       system.file("htmlwidgets/data-search/", package = "leafletGeocoderRshiny"),
       script = c("leaflet-search.min.js",
-                 "leaflet-search.js"),
+                 "leaflet-data-search.js"),
       stylesheet = "leaflet-search.min.css"
     ))
 }

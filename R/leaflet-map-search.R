@@ -5,7 +5,7 @@ leafletSearchDependenciesMapSearch <- function() {
       "1.3.8",
       system.file("htmlwidgets/map-search/", package = "leafletGeocoderRshiny"),
       script = c("leaflet-geocoder-mapzen.min.js",
-                 "leaflet-hash.min.js","leafletmapsearch.js"),
+                 "leaflet-hash.min.js","leaflet-map-search.js"),
       stylesheet=c("leaflet-geocoder-mapzen.css")
 
     ))

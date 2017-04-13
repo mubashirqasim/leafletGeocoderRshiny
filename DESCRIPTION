@@ -5,7 +5,7 @@ Authors@R: person("Mubashir", "Qasim", email = "mubashir@iuj.ac.jp", role = c("a
 Description: Embed state of the art Mapzen geocoder on leaflet maps in your
     shinyapp.
 Depends:
-    R (>= 3.3.2)
+    R (>= 3.1.1)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
