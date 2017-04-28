@@ -7,6 +7,7 @@ Depends:
     R (>= 3.3.0)
 Imports:
     dplyr,
+    leaflet,
     htmltools
 License: GPL-3
 Encoding: UTF-8
