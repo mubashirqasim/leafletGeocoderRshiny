@@ -3,12 +3,12 @@ Title: Leaflet Geo-coder for Rshiny
 Version: 0.0.0.9000
 Authors@R: person("Mubashir", "Qasim", email = "mubashir@iuj.ac.jp", role = c("aut", "cre"))
 Description: Embed state of the art Mapzen geocoder on leaflet maps in your shinyapp.
-Depends: R (>= 3.3.0), leaflet, dplyr
+Depends:
+    R (>= 3.3.0),
+    dplyr,
+    leaflet
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports:
-    leaflet,
-    dplyr
 URL: https://mqasim.me
 RoxygenNote: 5.0.1
