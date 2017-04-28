@@ -4,8 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Mubashir", "Qasim", email = "mubashir@iuj.ac.jp", role = c("aut", "cre"))
 Description: Embed state of the art Mapzen geocoder on leaflet maps in your shinyapp.
 Depends:
-    R (>= 3.3.0),
-    leaflet
+    R (>= 3.3.0)
 Imports:
     dplyr,
     htmltools
