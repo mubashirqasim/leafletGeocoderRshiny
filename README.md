@@ -31,7 +31,6 @@ leaflet(data = quakes) %>%
 library(leaflet)
 library(leafletGeocoderRshiny)
 
-data(quakes)
 leaflet(data = quakes) %>%
   addTiles() %>%
   addCircleMarkers(~long, ~lat, popup = ~as.character(mag),
