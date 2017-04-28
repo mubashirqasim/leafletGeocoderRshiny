@@ -15,6 +15,8 @@ leafletSearchDependenciesMapSearch <- function() {
 #'
 #' @param map a map widget object
 #' @examples
+#' library(leaflet)
+#' library(leafletGeocoderRshiny)
 #' leaflet(data = quakes) %>%
 #' addTiles() %>%
 #'     leafletMapSearch()
