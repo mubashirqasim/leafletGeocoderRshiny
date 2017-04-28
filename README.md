@@ -28,6 +28,9 @@ leaflet(data = quakes) %>%
 ## [Leaflet + Leaflet Control Search](https://github.com/stefanocudini/leaflet-search)
 
 ```r
+library(leaflet)
+library(leafletGeocoderRshiny)
+
 data(quakes)
 leaflet(data = quakes) %>%
   addTiles() %>%
