@@ -5,9 +5,11 @@ Authors@R: person("Mubashir", "Qasim", email = "mubashir@iuj.ac.jp", role = c("a
 Description: Embed state of the art Mapzen geocoder on leaflet maps in your shinyapp.
 Depends:
     R (>= 3.3.0),
-    dplyr,
     leaflet
-License: What license is it under?
+Imports:
+    dplyr,
+    htmltools
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 URL: https://mqasim.me
