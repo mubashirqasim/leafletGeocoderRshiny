@@ -20,6 +20,8 @@ leafletSearchDependenciesDataSearch <- function() {
 #' @param initial search elements only by initial text
 #' @return modified map
 #' @examples
+#' library(leaflet)
+#' library(leafletGeocoderRshiny)
 #' data(quakes)
 #' leaflet(data = quakes) %>%
 #'     addTiles() %>%
