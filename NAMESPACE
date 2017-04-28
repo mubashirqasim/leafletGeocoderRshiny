@@ -2,3 +2,5 @@
 
 export(addDataSearchMarker)
 export(leafletMapSearch)
+import(dplyr)
+import(leaflet)
